@@ -81,7 +81,7 @@ scene.add(lightHelper2);
 
 
 const loader = new GLTFLoader().setPath('public/car/');
-loader.load('fe.gltf', (gltf) => {
+loader.load('FE.gltf', (gltf) => {
   console.log('loading model');
   const mesh = gltf.scene;
 
