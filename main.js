@@ -38,7 +38,7 @@ const groundMaterial = new THREE.MeshStandardMaterial({
 });
 const groundMesh = new THREE.Mesh(groundGeometry, groundMaterial);
 groundMesh.castShadow = false;
-groundMesh.receiveShadow = true;
+groundMesh.receiveShadow = false;
 scene.add(groundMesh);
 
 // Create a DirectionalLight to illuminate the entire car
